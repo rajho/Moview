@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Moview Scratch</string>
+
+    <!-- Movies list -->
+    <string name="no_movies_label">No movies available</string>
+
+    <!-- Movie detail -->
+</resources>
