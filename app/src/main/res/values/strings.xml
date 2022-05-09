@@ -2,7 +2,8 @@
     <string name="app_name">Moview Scratch</string>
 
     <!-- Movies list -->
-    <string name="no_movies_label">No movies available</string>
+    <string name="no_movies_label">No movies available in fragment</string>
+    <string name="movie_image_description">Movie image</string>
 
     <!-- Movie detail -->
 </resources>
