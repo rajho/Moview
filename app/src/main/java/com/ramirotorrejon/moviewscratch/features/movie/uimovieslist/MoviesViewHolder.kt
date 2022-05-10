@@ -20,7 +20,7 @@ class MoviesViewHolder private constructor(
 	}
 
 	private fun navigateToMovie(uiMovie: UiMovie, view: View) {
-		val direction = MoviesListFragmentDirections.actionMoviesListFragmentToMovieDetailFragment()
+		val direction = MoviesListFragmentDirections.actionMoviesListFragmentToMovieDetailFragment(uiMovie)
 		view.findNavController().navigate(direction)
 	}
 

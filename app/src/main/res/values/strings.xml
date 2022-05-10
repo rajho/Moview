@@ -6,4 +6,12 @@
     <string name="movie_image_description">Movie image</string>
 
     <!-- Movie detail -->
+    <!-- Movie detail -->
+    <string name="trailers_label">Trailers</string>
+    <string name="no_trailers">There are no trailers for this movie.</string>
+    <string name="play_icon_description">Play icon</string>
+    <string name="reviews_label">Reviews</string>
+    <string name="divider_line_description">Divider line</string>
+    <string name="no_reviews">There are no reviews yet.</string>
+    <string name="favorite_icon_description">Favorite star icon</string>
 </resources>
