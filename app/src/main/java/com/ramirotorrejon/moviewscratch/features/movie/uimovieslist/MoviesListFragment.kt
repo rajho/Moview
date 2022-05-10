@@ -43,14 +43,17 @@ class MoviesListFragment : Fragment() {
 
 		val columnWidthDp: Int = 180
 		val gridLayoutManager = GridLayoutManager(requireContext(), calculateBestSpanCount(columnWidthDp))
-		// TODO (1) create adapter
+		val moviesAdapter = MoviesAdapter()
 
-		binding.moviesRecycler.layoutManager = gridLayoutManager
-		binding.moviesRecycler.setHasFixedSize(true)
-		// TODO (2) assign adapter
+		binding.moviesRecycler.run {
+			layoutManager = gridLayoutManager
+			setHasFixedSize(true)
+			adapter = moviesAdapter
+		}
 
 		viewModel.movies.observe(viewLifecycleOwner) { movies ->
 			Timber.d("Ramiro movies size ${movies.size}")
+			moviesAdapter.submitList(movies)
 		}
 
 	}

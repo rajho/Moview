@@ -23,7 +23,6 @@ class MoviesListViewModel @Inject constructor(
 
 	init {
 		loadMoviesData()
-		Timber.d("RAMIRO MainViewModel called")
 	}
 
 	private fun loadMoviesData() {
